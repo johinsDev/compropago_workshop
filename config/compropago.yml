@@ -1,0 +1,10 @@
+default: &default
+  private: sk_test_55f9029446ea49205d
+  public: pk_test_97a31cdb4294334c14
+development:
+  <<: *default
+test:
+  <<: *default
+production:
+  private: sk_live_4ce029448aeee475cf
+  public: pk_live_83507d2329334544ec
